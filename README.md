@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My SPA SKELETON Project
 
-## Getting Started
+## Опис проекту / Project Description
 
-First, run the development server:
+[UA] Це одностнорінковий додаток (SPA), створений за допомогою Next.js, React та Tailwind CSS. Проект надає основу для швидкої розробки сучасних веб-додатків з оптимізованою продуктивністю та зручним розробницьким досвідом.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[EN] This is a Single Page Application (SPA) built with Next.js, React, and Tailwind CSS. The project provides a foundation for rapid development of modern web applications with optimized performance and a great developer experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Скрипти / Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `npm run dev`:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  - [UA] Запускає додаток у режимі розробки. Відкрийте [http://localhost:3000](http://localhost:3000) для перегляду в браузері.
+  - [EN] Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+- `npm run build`:
 
-To learn more about Next.js, take a look at the following resources:
+  - [UA] Створює оптимізовану версію додатка для виробництва.
+  - [EN] Builds the app for production to the `build` folder.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm run start`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  - [UA] Запускає створену версію додатка.
+  - [EN] Runs the built app in production mode.
 
-## Deploy on Vercel
+- `npm run lint`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  - [UA] Запускає лінтер для перевірки коду на наявність помилок та стилістичних проблем.
+  - [EN] Runs the linter to check for code errors and style issues.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- `npm run format`:
+  - [UA] Форматує код проекту за допомогою Prettier.
+  - [EN] Formats the project code using Prettier.
+- `npm run test`:
+  - [UA] Запускає юніт тести з Jest.
+  - [EN] Start unit test with Jest.
+
+## Залежності / Dependencies
+
+- `next` (14.2.5): Фреймворк React для продакшену / React framework for production
+- `react` (^18): Бібліотека для створення користувацьких інтерфейсів / Library for building user interfaces
+- `react-dom` (^18): DOM-специфічні методи для React / DOM-specific methods for React
+- `@headlessui/react` (^2.1.2): Повністю доступні UI компоненти для React / Fully accessible UI components for React
+- `@heroicons/react` (^2.1.5): Красиві SVG іконки для UI розробки / Beautiful hand-crafted SVG icons for UI development
+- `framer-motion` (^11.3.21): Бібліотека для створення анімацій у React / Library for creating animations in React
+- `autoprefixer` (^10.4.20): Плагін PostCSS для парсингу CSS та додавання префіксів / PostCSS plugin to parse CSS and add vendor prefixes
+
+## Залежності розробки / Dev Dependencies
+
+- `typescript` (^5.5.4): Типізований суперсет JavaScript / Typed superset of JavaScript
+- `eslint` (^8): Інструмент для виявлення та виправлення проблем у JavaScript коді / Tool for identifying and reporting on patterns in JavaScript
+- `prettier` (^3.3.3): Форматувач коду / Code formatter
+- `tailwindcss` (^3.4.1): Утилітарний CSS фреймворк / Utility-first CSS framework
+- `@typescript-eslint/eslint-plugin` (^6.0.0): ESLint плагін для TypeScript / ESLint plugin for TypeScript
+- `@typescript-eslint/parser` (^6.0.0): Парсер для ESLint і TypeScript / Parser for ESLint and TypeScript
+- `eslint-config-prettier` (^9.1.0): Вимикає правила ESLint, що конфліктують з Prettier / Turns off all rules that are unnecessary or might conflict with Prettier
+- `prettier-plugin-tailwindcss` (^0.6.5): Плагін Prettier для сортування класів Tailwind CSS / Prettier plugin for sorting Tailwind CSS classes
+- `jest` (^29.7.0): Для тестування JavaScript / To test JavaScript
+- `jest-environment-jsdom` (^29.7.0): Середовище JSDOM для запуску тестів Jest, що симулює браузерне оточення / A JSDOM environment for running Jest tests that simulates the browser environment.
+- `testing-library/jest-dom` (^6.4.8): Набір користувацьких Jest матчерів для тестування DOM елементів / A set of custom Jest matchers for testing DOM elements.
+- `testing-library/react` (^16.0.0): Утиліти для тестування React компонентів, що сприяють хорошим практикам тестування / Utilities for testing React components that promote good testing practices
+
+## Як почати / Getting Started
+
+1. Клонуйте репозиторій / Clone the repository
+2. Встановіть залежності: `npm install` / Install dependencies: `npm install`
+3. Запустіть проект у режимі розробки: `npm run dev` / Run the project in development mode: `npm run dev`
