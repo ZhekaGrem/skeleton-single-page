@@ -56,6 +56,7 @@
 - `eslint-config-prettier` (^9.1.0): Вимикає правила ESLint, що конфліктують з Prettier / Turns off all rules that are unnecessary or might conflict with Prettier
 - `prettier-plugin-tailwindcss` (^0.6.5): Плагін Prettier для сортування класів Tailwind CSS / Prettier plugin for sorting Tailwind CSS classes
 - `jest` (^29.7.0): Для тестування JavaScript / To test JavaScript
+- `husky` (^9.1.4): Для зміни коду перед комітом / To change the code before a commit
 - `jest-environment-jsdom` (^29.7.0): Середовище JSDOM для запуску тестів Jest, що симулює браузерне оточення / A JSDOM environment for running Jest tests that simulates the browser environment.
 - `testing-library/jest-dom` (^6.4.8): Набір користувацьких Jest матчерів для тестування DOM елементів / A set of custom Jest matchers for testing DOM elements.
 - `testing-library/react` (^16.0.0): Утиліти для тестування React компонентів, що сприяють хорошим практикам тестування / Utilities for testing React components that promote good testing practices
