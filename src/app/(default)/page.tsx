@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react';
 import Loading from '@/app/loading';
 
-const One = lazy(() => import('@/app/components/section/One'));
+const One    = lazy(() => import('@/app/components/section/One'));
 // const Two = lazy(() => import('@/app/components/section/Two'));
 // const Three = lazy(() => import('@/app/components/section/Three'));
 // const Four = lazy(() => import('@/app/components/section/Four'));
@@ -15,9 +15,11 @@ export default function Home() {
   return (
     <>
       <Suspense fallback={<Loading />}>
-        <One />
+        <One />  
+    
 
-        
+
+    
       </Suspense>
       {/* <Suspense fallback={<Loading />}>
         <Two />
