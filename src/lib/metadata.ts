@@ -12,13 +12,9 @@ export const siteMetadata: Metadata = {
     title: '',
     description: 'Опис',
     images: [
-      {
-        url: 'https://as1.ftcdn.net/v2/jpg/04/54/10/86/1000_F_454108632_C48wbroFTZQQR5tiSeg0oX0GkrYE8j8Z.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'опис',
-      },
+      'https://as1.ftcdn.net/v2/jpg/04/54/10/86/1000_F_454108632_C48wbroFTZQQR5tiSeg0oX0GkrYE8j8Z.jpg',
     ],
+
     type: 'website',
   },
   twitter: {
