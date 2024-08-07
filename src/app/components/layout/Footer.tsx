@@ -104,7 +104,13 @@ const Footer = () => {
               aria-label={list.text}
               title={list.text}
               className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
-              <Image width={32} height={32} className="h-4 w-4" alt={list.text} src={list.src} />
+              <Image
+                width={32}
+                height={32}
+                className="h-5 w-5 hover:scale-125"
+                alt={list.text}
+                src={list.src}
+              />
               <span className="sr-only">{list.text}</span>
             </a>
           ))}
