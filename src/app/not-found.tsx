@@ -24,7 +24,7 @@ const NotFound = () => {
               Page not found
             </h1>
             <p className="mt-4 text-gray-500 dark:text-gray-400">
-              The page you are looking for doesn't exist. Here are some helpful links:
+              The page you are looking for doesn`t exist. Here are some helpful links:
             </p>
 
             <div className="mt-6 flex w-full shrink-0 justify-center gap-x-3 sm:w-auto">

@@ -58,8 +58,6 @@ describe('Portal component', () => {
     expect(onCloseMock).toHaveBeenCalledTimes(1);
   });
 
-
-
   it('logs an error when portal-root is not found', () => {
     // Remove the portal-root element
     const portalRoot = document.getElementById('portal-root');

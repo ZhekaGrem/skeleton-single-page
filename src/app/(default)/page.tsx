@@ -16,6 +16,8 @@ export default function Home() {
     <>
       <Suspense fallback={<Loading />}>
         <One />
+
+        
       </Suspense>
       {/* <Suspense fallback={<Loading />}>
         <Two />

@@ -9,7 +9,7 @@ interface PortalProps {
   title?: string;
 }
 
-const Portal: React.FC<PortalProps> = ({ onClose, title }) => {
+const Portal: React.FC<PortalProps> = ({ onClose }) => {
   const portalRoot = typeof document !== 'undefined' ? document.getElementById('portal-root') : null;
   const modalRef = useRef<HTMLDivElement>(null);
 
@@ -54,10 +54,10 @@ const Portal: React.FC<PortalProps> = ({ onClose, title }) => {
           className="fixed inset-0 z-50 flex items-center justify-center rounded-2xl bg-opacity-50 px-4">
           <motion.div
             ref={modalRef}
-            initial={{ x: '-100%'  }}
-            animate={{ x: '0%'}}
+            initial={{ x: '-100%' }}
+            animate={{ x: '0%' }}
             exit={{ x: '100%' }}
-            transition={{ duration: 0.3  }}
+            transition={{ duration: 0.3 }}
             className="relative min-h-[50%] min-w-[50%] rounded-2xl bg-black shadow-lg">
             <button
               className="absolute right-4 top-4 text-gray-50 transition-colors hover:text-gray-700"
