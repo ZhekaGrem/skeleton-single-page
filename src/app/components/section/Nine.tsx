@@ -1,3 +1,6 @@
+// 'use client'
+// import styles from '@/styles/nine.module.css';
+// import Image from "next/image";
 // import { usePortal } from '@/app/components/layout/PortalContext';
 
 const Nine = () => {

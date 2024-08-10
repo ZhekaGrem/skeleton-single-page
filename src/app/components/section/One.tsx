@@ -1,4 +1,6 @@
 // 'use client'
+// import Image from "next/image";
+// import styles from '@/app/styles/one.module.css';
 // import { usePortal } from '@/app/context/PortalContext'; exampl how open popUp block
 
 const One = () => {

@@ -1,3 +1,6 @@
+// 'use client'
+// import Image from "next/image";
+// import styles from '@/styles/six.module.css';
 // import { usePortal } from '@/app/components/layout/PortalContext';
 
 const Six = () => {
