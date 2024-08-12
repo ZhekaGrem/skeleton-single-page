@@ -2,8 +2,10 @@ import { Inter } from 'next/font/google';
 import '@/styles/globals.css';
 import Footer from '@/app/components/layout/Footer';
 import Header from '@/app/components/layout/Header';
+import FloatingCircle from '@/app/components/layout/FloatingCircle';
+
 import { siteMetadata, siteViewport } from '@/lib/metadata';
-// import { PortalProvider } from '@/app/context/PortalContext'
+// import { PortalProvider } from '@/context/PortalContext'
 // import { GoogleTagManager from '@next/third-parties/google'; if you need npm i @next/third-parties
 // import { GoogleAnalytics } from '@next/third-parties/google'; if you need npm i @next/third-parties
 
@@ -29,7 +31,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
-        <div id="portal-root" />
+        <FloatingCircle />
         {/* if need PopUp
                  <PortalProvider>
 

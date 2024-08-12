@@ -1,7 +1,7 @@
 // 'use client'
 // import styles from '@/styles/seven.module.css';
 // import Image from "next/image";
-// import { usePortal } from '@/app/components/layout/PortalContext';
+// import { usePortal } from '@/components/layout/PortalContext';
 
 const Seven = () => {
   return (
