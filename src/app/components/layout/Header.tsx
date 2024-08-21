@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { logo, header } from '@/db/data';
 
 import { Bars3CenterLeftIcon, XMarkIcon } from '@heroicons/react/24/solid';
-const Header = () => {
+const Header: React.FC = () => {
   // State to manage the navbar's visibility
   const [nav, setNav] = useState(false);
 

@@ -1,9 +1,9 @@
 // 'use client'
-// import styles from '@/styles/tree.module.css';
+// import styles from '@/styles/seven.module.css';
 // import Image from "next/image";
 // import { usePortal } from '@/components/layout/PortalContext';
 
-const Three = () => {
+const Seven: React.FC = () => {
   return (
     <section className="flex min-h-screen">
       <div className="container mx-auto">sd</div>
@@ -11,4 +11,4 @@ const Three = () => {
   );
 };
 
-export default Three;
+export default Seven;

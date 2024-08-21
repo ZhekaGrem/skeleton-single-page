@@ -1,9 +1,9 @@
 // 'use client'
 // import Image from "next/image";
-// import styles from '@/styles/four.module.css';
+// import styles from '@/styles/eight.module.css';
 // import { usePortal } from '@/components/layout/PortalContext';
 
-const Four = () => {
+const Eighth: React.FC = () => {
   return (
     <section className="flex min-h-screen">
       <div className="container mx-auto">sd</div>
@@ -11,4 +11,4 @@ const Four = () => {
   );
 };
 
-export default Four;
+export default Eighth;

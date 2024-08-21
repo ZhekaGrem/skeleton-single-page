@@ -4,10 +4,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import ReactDOM from 'react-dom';
 import { XMarkIcon } from '@heroicons/react/24/solid';
 
-interface PortalProps {
+type PortalProps = {
   onClose: () => void;
   title?: string;
-}
+};
 
 const Portal: React.FC<PortalProps> = ({ onClose }) => {
   const portalRoot = typeof document !== 'undefined' ? document.getElementById('portal-root') : null;

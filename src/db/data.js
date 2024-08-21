@@ -2,7 +2,7 @@
 
 //Logo
 export const logo = {
-  src: '/logo/logo.svg',
+  src: '/assets/logo/logo.svg',
   with: 100,
   height: 80,
   alt: 'logo',
@@ -44,11 +44,11 @@ export const footer = {
     { id: 4, text: 'MacOS', link: '/' },
   ],
   iconColum: [
-    { id: 1, text: 'Facebook page', src: '/svg/facebook.svg', link: '' },
-    { id: 2, text: 'Discord community', src: '/svg/discord.svg', link: '' },
-    { id: 3, text: 'Twitter page', src: '/svg/X.svg', link: '' },
-    { id: 4, text: 'Telegram account', src: '/svg/telegram.svg', link: '' },
-    { id: 5, text: 'Instagram account', src: '/svg/instagram.svg', link: '' },
+    { id: 1, text: 'Facebook page', src: '/assets/svg/facebook.svg', link: '' },
+    { id: 2, text: 'Discord community', src: '/assets/svg/discord.svg', link: '' },
+    { id: 3, text: 'Twitter page', src: '/assets/svg/X.svg', link: '' },
+    { id: 4, text: 'Telegram account', src: '/assets/svg/telegram.svg', link: '' },
+    { id: 5, text: 'Instagram account', src: '/assets/svg/instagram.svg', link: '' },
   ],
   text: {
     firstColum: 'Company',

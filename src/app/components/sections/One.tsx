@@ -3,7 +3,7 @@
 // import styles from '@/app/styles/one.module.css';
 // import { usePortal } from '@/context/PortalContext'; exampl how open popUp block
 
-const One = () => {
+const One: React.FC = () => {
   //  const { isPortalOpen, setIsPortalOpen } = usePortal(); exampl how open popUp block
   // <button className="bg-slate-300  px-6 "  onClick={() => setIsPortalOpen(true)}>+</button>  exampl how open popUp block
 

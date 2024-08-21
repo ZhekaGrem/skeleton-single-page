@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { footer } from '@/db/data';
 const date = new Date().getFullYear();
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer className="bg-white dark:bg-gray-900">
       <div className="container mx-auto w-full">

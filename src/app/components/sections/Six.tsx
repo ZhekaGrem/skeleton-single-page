@@ -1,9 +1,9 @@
 // 'use client'
-// import styles from '@/styles/nine.module.css';
 // import Image from "next/image";
+// import styles from '@/styles/six.module.css';
 // import { usePortal } from '@/components/layout/PortalContext';
 
-const Nine = () => {
+const Six: React.FC = () => {
   return (
     <section className="flex min-h-screen">
       <div className="container mx-auto">sd</div>
@@ -11,4 +11,4 @@ const Nine = () => {
   );
 };
 
-export default Nine;
+export default Six;
