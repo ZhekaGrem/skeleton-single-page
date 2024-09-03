@@ -92,7 +92,8 @@ const Footer: React.FC = () => {
       </div>
       <div className="bg-gray-100 p-4 md:flex md:items-center md:justify-between dark:bg-gray-700">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-300">
-          © {date} {footer.text.bottom}
+          ©<time>{date}</time>
+          {footer.text.bottom}
         </span>
         <div className="mt-4 flex space-x-5 sm:justify-center md:mt-0 rtl:space-x-reverse">
           {footer.iconColum.map((list) => (
